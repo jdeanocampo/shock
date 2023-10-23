@@ -1,0 +1,317 @@
+body, html {
+    height: 100%;
+}
+
+.button-55 {
+  align-self: center;
+  background-color: transparent;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid white;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 2em;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.button-56 {
+  align-self: center;
+  background-color: rgb(8, 8, 8);
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid white;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 2em;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-56:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/marshall-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;;
+  height: 100%;
+}
+.hero-image-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/features-shop-now.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+.hero-image-3 {
+  background-image: url("images/homeline-III.jpg");
+  height: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hero-image-4 {
+  background-image: url("images/marshall-stacked.jpg");
+  height: 70%;
+  width: 80%;
+  max-width: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-image-5 {
+  background-image: url("images/pic-2.jpg");
+  height: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-image-6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/headphones-hero-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;;
+  height: 100%;
+}
+
+.hero-text {
+  text-align: center;
+  position:absolute;
+  background-position: inherit;
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+
+.hero-text-1 {
+  text-align: center;
+  padding-top: 15%;
+  color: white;
+  
+}
+
+.hero-text-2 {
+  text-align: center;
+  padding-top: 25%;
+  color: white;
+}
+
+.hero-text-3 {
+  text-align: center;
+  padding-top: 30%;
+  color: white;
+}
+.hero-text-4 {
+  text-align: center;
+  color: white;
+}
+.hero-text-1 {
+  text-align: center;
+  padding-top: 35%;
+  color: white;
+  
+}
+.about-us-hero {
+  background-image: url("images/about-us-hero.jpg");
+  height: 70%;
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.terms-hero {
+  background-image: url("images/terms-hero.jpg");
+  height: 70%;
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c1{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.c4{
+  color: white;
+  font-size: 20px;
+
+}
+.index{
+    font-size: 1.5em;
+  }
+.email-btn{
+    color: rgb(31, 30, 30);;
+  }
+  
+.email{
+    width: 100%;
+    color: black;
+  }
+.f1{
+    height: 20%; 
+    background-color: black;
+}
+.center{
+    text-align: center;
+}
+.pad2{
+    padding-top: 1%;
+}
+.pad3{
+  padding-left: 9%;
+}
+.c2{
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    text-align: justify;
+}
+.support{
+    list-style: none;
+}
+.c3{
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    left: -40px;
+}
+.footer-btn{
+    color: rgb(31, 30, 30);
+    height: 50%;
+    width: 50%;
+  }
+
+.modal-header, h4, .close {
+  background-color: #333;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-header, .modal-body {
+  padding: 40px 50px;
+}
+.modal-bg{
+  background-color: #000000;
+}
+
+.h1-about-us{
+  font-weight: bolder; 
+  font-size: 7.3em; 
+  color: white; 
+  padding-top: 2%;
+}
+.h1-about-us2{
+  font-weight: bolder; 
+  font-size: 4em; 
+  color: white; 
+  padding-top: 2%;
+}
+
+/*responsive*/
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-sm"] {
+    width: 100%;
+  }
+}
+  @media only screen and (max-width: 400) {
+  /* For mobile phones: */
+  [class*="col-sm"] {
+    width: 100%;
+  }
+}

@@ -1,0 +1,75 @@
+.hero-image-9 {
+    background-image: url("images/stanmore-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;;
+    height: 100%;
+}
+.hero-text-9 {
+    text-align: center;
+    position:absolute;
+    background-position: inherit;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+.button-56 {
+    align-self: center;
+    background-color: rgb(8, 8, 8);
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid white;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 2em;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-56:hover {
+    box-shadow: rgba(255, 255, 255, 0.3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .button-56:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+
+  .hero-image-10 {
+    background-image: url("images/stanmore-hero-2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;;
+    height: 100%;
+}
+.hero-text-10 {
+    text-align: center;
+    padding-top: 38%;
+    color: white;
+    
+  }
+  .container1{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    }
