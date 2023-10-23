@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>About Marshall</title>
+    <link rel="icon" href="images/marshall-icon.jpg" type="image/icon type">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="marshall.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+    <style>
+    .nav-link{
+      color: white;
+    }
+    .bxs-cart:hover{
+      opacity: .5;
+    }
+    .sticky {
+      position: fixed;
+      top: 0;
+      max-width: 100%;
+      width: 100%;
+    }
+    #navbar{
+      position: fixed;
+      max-width: 100%;
+      width: 100%;
+    }
+    @media(width = 375px){
+      body{
+        height:130%;
+      }
+      option{
+        width: 100%;
+      }
+    }
+      @media(height = 896px){
+        body{
+          height:100%;
+        }
+    }
+    .option{
+        max-width: 100%;
+    }
+    h1, h2, p, .test {
+      /* Font minimum, preferred and maximum value */
+      font-size: clamp(var(--min), var(--val), var(--max));
+    }
+    p {
+    --min: 1vw;   /* minimum value */
+    --val: 1.2em; /* preferred value = 2.5% viewport width */
+    --max: 1.2em; /* maximum value */
+    color: white;
+    }
+    h1{
+      color: white;
+      --min: 2em;   /* minimum value */
+      --val: 4vw; /* preferred value = 2.5% viewport width */
+      --max: 90px; /* maximum value */
+    }
+    h2{
+      color: white;
+      --min: 2em;   /* minimum value */
+      --val: 2vw; /* preferred value = 2.5% viewport width */
+      --max: 90px; /* maximum value */
+    }
+ 
+    </style>
+    <body>
+      <nav>
+        <hr>
+        <div class="row" style="width: 100%;">
+            <div class="col-md-12" style="text-align: center;">
+                <a href="index.html" style="color: black;">back to marshall homepage</a>
+            </div>
+        </div>
+        <hr>
+      </nav>
+      <section style="background-color: none;">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-12 col-xl-11">
+              <div class="card text-black" style="border-radius: 25px;">
+                <div class="card-body p-md-5">
+                  <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+      
+                      <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Submit a Request</p>
+      
+                      <form class="mx-1 mx-md-4">
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <label class="form-label" for="form3Example1c">Your Email*</label>
+                            <input type="text" id="form3Example1c" class="form-control" style="width: 100%;">
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <label class="form-label" for="form3Example3c">Request Area*</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>-</option>
+                                <option value="1">Business and wholesale inquiries</option>
+                                <option value="2">How to create an order</option>
+                                <option value="3">Order cancellation</option>
+                                <option value="4">Order returns</option>
+                                <option value="5">Product inquiries</option>
+                                <option value="6">Product defect/issues</option>
+                              </select>
+                            
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <label class="form-label" for="form3Example4c">Order Number</label>
+                            <input type="password" id="form3Example4c" class="form-control">
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <label class="form-label" for="form3Example4cd">Subject*</label>
+                            <input type="password" id="form3Example4cd" class="form-control">
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                            <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                            <div class="form-outline flex-fill mb-0">
+                              <label class="form-label" for="form3Example4cd">Description*</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-check d-flex mb-5">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c">
+                            <label class="form-check-label" for="form2Example3">
+                            <a href="#!" style="color: black;">*Privacy</a>
+                            </label>
+                        </div>
+                        
+      
+                        <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          
+                          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+                            Submit
+                          </button>
+                        </div>
+      
+                      </form>
+      
+                    </div>
+                    <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                    <img src="images/csr.jpg" class="img-fluid" alt="Sample image">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+          <footer class="text-center" style="background-color: rgb(0, 0, 0);">
+            <div class="container">
+        
+              <section class="col-md-12">
+                <div class="row text-center d-flex justify-content-center pt-4 pb-2">
+                  
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase">
+                      <a href="#" class="text-light">Customer Service</a>
+                    </h6>
+                  </div>
+                  
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase">
+                      <a href="policy.html" class="text-light">Policies</a>
+                    </h6>
+                  </div>
+                  
+                  <div class="col-md-4">
+                    <h6 class="text-uppercase">
+                      <a href="terms.html" class="text-light">Terms of Purchase</a>
+                    </h6>
+                  </div>
+                  
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase">
+                      <a href="#" class="text-light">Contact Us</a>
+                    </h6>
+                  </div>
+                  
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase">
+                      <a href="#" class="text-light">My Account</a>
+                    </h6>
+                  </div>
+                </div>
+              </section>
+              
+              <section class="col-md-12">
+                <hr>
+              </section>
+        
+              <section class="mb-3 mt-3">
+                <div class="row">
+                    <div class="pad col-sm-3" style="padding-left: 5%; padding-top: 1%;">
+                      <p class="c1"> <b>SIGN UP FOR OUR NEWSLETTER</b><br> Get 10 % off on your first order. <br>Coupon shared through email.</p> 
+                    </div>
+                    <div class="col-sm-4" style="padding-top: 2.5%; float: left;"><p class="c1" ><input class="email" type="text" name="Email" placeholder="Email Address"> 
+                    </div>
+                
+                    <div class="pad col-sm-3" style="padding-left: 5%; padding-top: 1%;">
+                    <p class="c1" style="padding-top:3%;">BY SUBSCRIBING YOU ACCEPT OUR <u><a href="policy.html" class="c1" >PRIVACY POLICY.</a></u></p> 
+                  </div>
+                  <div class="col-sm-1" style="padding-top: 2.5%; float: left;">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); color: white;"><img src="images/index-logo.png" width="90px">© 2023</div>   
+        </footer>
+    </body>
+</html> 
