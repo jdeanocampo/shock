@@ -150,7 +150,7 @@ body, html {
 
 .hero-text-1 {
   text-align: center;
-  padding-top: 15%;
+  padding-top: 20%;
   color: white;
   
 }
@@ -169,12 +169,6 @@ body, html {
 .hero-text-4 {
   text-align: center;
   color: white;
-}
-.hero-text-1 {
-  text-align: center;
-  padding-top: 35%;
-  color: white;
-  
 }
 .about-us-hero {
   background-image: url("images/about-us-hero.jpg");
@@ -203,9 +197,6 @@ body, html {
   font-size: 20px;
 
 }
-.index{
-    font-size: 1.5em;
-  }
 .email-btn{
     color: rgb(31, 30, 30);;
   }
